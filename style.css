@@ -99,3 +99,57 @@ ul li span{
 ul li span:hover{
     background: #d2d4d7;
 }
+/* .footer {
+    max-width: 550px;
+    margin:30px ;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+} */
+
+
+.footer {
+    background-color: #fff;
+    padding: 5px 5px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
+}
+.footer h3 {
+    font-size: 22px;
+    color: #002765;
+    margin-bottom: 5px;
+}
+
+.footer p {
+    font-size: 5px;
+    color: #444;
+    margin-bottom: 5px;
+}
+.footer .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.footer .social-links a {
+    font-size: 20px;
+    color: #333;
+    background: #edeef0;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.footer .social-links a:hover {
+    background: rgb(232, 91, 49);
+    color: #fff;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #555;
+}
